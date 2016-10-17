@@ -1,2 +1,3 @@
 var mod = require('./mod');
-mod();
+mod.test();
+console.log(mod.name);
