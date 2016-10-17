@@ -1,3 +1,5 @@
+const colors = require('colors');
+
 var interval = setInterval(() => {
-	console.log('Hello World');
+	console.log(colors.trap('Hello World'));
 }, 1000);
