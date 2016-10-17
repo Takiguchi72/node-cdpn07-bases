@@ -1,5 +1,7 @@
+var total = 0;
 process.argv.forEach(function(val, index, array) {
 	if(index > 1) {
-		console.log('argument ' + (index - 1) + ' : ' + val);
+		total += parseInt(val);
 	}
 });
+console.log(total);
