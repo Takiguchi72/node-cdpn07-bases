@@ -1,7 +1,3 @@
-var total = 0;
-process.argv.forEach(function(val, index, array) {
-	if(index > 1) {
-		total += parseInt(val);
-	}
-});
-console.log(total);
+var interval = setInterval(() => {
+	console.log('Hello World');
+}, 1000);
