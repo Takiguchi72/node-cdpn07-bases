@@ -1,3 +1,4 @@
 var mod = require('./mod');
-mod.test();
-console.log(mod.name);
+mod('Hello world', (msg) => {
+	console.log('msg is : ' + msg);
+})

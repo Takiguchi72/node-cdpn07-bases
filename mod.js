@@ -1,5 +1,3 @@
-module.exports.test = function() {
-	console.log('Hello World');
+module.exports = function(msg, fx) {
+	fx(msg);
 };
-
-module.exports.name = 'toto';
