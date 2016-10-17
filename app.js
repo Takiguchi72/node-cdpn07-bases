@@ -1,6 +1,4 @@
-const User = require('./user').User;
+const userFactory = require('./userFactory');
 
-var user = new User();
-
-user.setName('toto');
+var user = userFactory('toto');
 console.log(user.getName());
