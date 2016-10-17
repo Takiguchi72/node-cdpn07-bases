@@ -1,4 +1,6 @@
-var mod = require('./mod');
-mod('Hello world', (msg) => {
-	console.log('msg is : ' + msg);
-})
+const User = require('./user').User;
+
+var user = new User();
+
+user.setName('toto');
+console.log(user.getName());
